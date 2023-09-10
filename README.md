@@ -1,10 +1,19 @@
 [![Contributors][contributors-shield]][contributors-url]
 [![Rendani-Ally][github-shield]](https://github.com/Rendani-Ally)
-[![Thandi Andile Ndlovu][github-shield]](https://github.com/princenzmw)
+[![Prince-Nzamuwe][github-shield]](https://github.com/princenzmw)
 
   
 <p align="center">
-  <h3 align="center">Simple Shell</h3>
+
+```sh   
+███████╗██╗███╗   ███╗██████╗ ██╗     ███████╗    ███████╗██╗  ██╗███████╗██╗     ██╗     
+██╔════╝██║████╗ ████║██╔══██╗██║     ██╔════╝    ██╔════╝██║  ██║██╔════╝██║     ██║     
+███████╗██║██╔████╔██║██████╔╝██║     █████╗      ███████╗███████║█████╗  ██║     ██║     
+╚════██║██║██║╚██╔╝██║██╔═══╝ ██║     ██╔══╝      ╚════██║██╔══██║██╔══╝  ██║     ██║     
+███████║██║██║ ╚═╝ ██║██║     ███████╗███████╗    ███████║██║  ██║███████╗███████╗███████╗
+╚══════╝╚═╝╚═╝     ╚═╝╚═╝     ╚══════╝╚══════╝    ╚══════╝╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝
+```
+</p>  
 <p align="center">
     The printf project is a collaboration project by <a href="https://github.com/Rendani-Ally">Rendani Ally<a/> and <a href="https://github.com/princenzmw">Prince Nzamuwe<a/>, students of the ALX Software Engineering Programme by Holberton School, in which a simple UNIX command interpreter written as part of the low-level programming and algorithm track at ALX.
     Shellex is a simple UNIX command language interpreter that reads commands from either a file or standard input and executes them.

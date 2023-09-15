@@ -1,0 +1,67 @@
+.\" Manpage for Simple Shell (hsh)
+.\" Written by Rendani-Ally and Prince NZAMUWE
+.TH HSH 1 "September 2023" "ALX Africa" "SHELL - Simple Shell Manual Page"
+
+.SH NAME
+hsh \- simple UNIX command interpreter
+
+.SH SYNOPSIS
+.B hsh
+[\fIoptions\fR]
+[\fIfilename\fR]
+
+.SH DESCRIPTION
+.B hsh
+is a sh-compatible command language interpreter that executes commands read from the standard input or from a file.
+
+.SH OPTIONS
+.PP
+The following options are supported:
+.TP
+.B -P
+Execute commands in a separate execution environment.
+.TP
+.B -v
+Enable verbose mode for debugging.
+.PP
+If no options are specified, hsh operates in interactive mode, reading commands from the standard input.
+
+.SH ARGUMENTS
+If arguments remain after option processing, the first argument is assumed to be the name of a file containing shell commands. hsh reads and executes commands from this file, then exits. The exit status is the exit status of the last command executed in the script. If no commands are executed, the exit status is 0.
+
+.SH ENVIRONMENT
+hsh takes a copy of the Bash environment of the parent process. Environment variables are passed to child processes.
+
+.SH EXIT STATUS
+The exit status of an executed command is the value returned by the waitpid system call. A command that exits with a zero status indicates success. A non-zero status indicates failure.
+
+.SH BUILTINS
+.PP
+hsh supports the following builtin commands:
+.TP
+.B env
+Print the current environment.
+.TP
+.B setenv [Variable] [Value]
+Create or modify an environment variable.
+.TP
+.B unsetenv [Variable]
+Remove an environment variable.
+.TP
+.B exit [Status]
+Exit the shell with an optional exit status.
+.TP
+.B cd [DIRECTORY]
+Change the current directory.
+.TP
+.B help
+Display help messages for builtin commands.
+
+.SH SEE ALSO
+access(2), chdir(2), execve(2), _exit(2), exit(3), fork(2), free(3), isatty(3), getcwd(3), malloc(3), open(2), read(2), sh(1), signal(2), stat(2), wait(2), write(2)
+
+.SH AUTHORS
+Rendani-Ally and Prince NZAMUWE
+
+.SH COPYRIGHT
+hsh is Copyright (C) 2023 by Rendani-Ally and Prince NZAMUWE.

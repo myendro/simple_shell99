@@ -1,0 +1,17 @@
+help: help
+    Display information about builtin commands.
+
+    DESCRIPTION:
+    The "help" command provides information about builtin commands in the shell.
+
+    USAGE:
+    - To display brief summaries of all available builtin commands, use: `help`
+    - To get detailed help on a specific command matching PATTERN, use: `help PATTERN`
+
+    OPTIONS:
+    - PATTERN: Specify a pattern to match and display detailed help for the matching commands.
+
+    EXIT STATUS:
+    - Returns success unless:
+        - PATTERN is not found
+        - An invalid option is given

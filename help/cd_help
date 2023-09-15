@@ -1,0 +1,19 @@
+cd: cd
+    Change the shell's working directory.
+
+    The `cd` command allows you to change the current directory in your shell.
+    By default, if no directory is provided, it changes the current directory
+    to the value stored in the HOME environment variable.
+
+    You can provide a specific directory path as an argument to navigate to that
+    location. The `CDPATH` environment variable defines a search path for the
+    directory containing DIR. Multiple directory names in CDPATH are separated
+    by colons (':'). A null directory name signifies the current directory.
+    However, if DIR begins with a slash ('/'), CDPATH is not used.
+
+    Options:
+        -P: Sets the physical directory. Returns non-zero if unsuccessful.
+
+    Exit Status:
+        Returns 0 if the directory is changed successfully (or when using -P),
+        non-zero otherwise.

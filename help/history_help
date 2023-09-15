@@ -1,0 +1,17 @@
+history: history
+    Display or manipulate the command history list.
+
+    DESCRIPTION:
+    The "history" command is used to display or manipulate the command history list.
+
+    USAGE:
+    - To display the command history list with line numbers, use: `history`
+    - To display the last N entries in the history list, use: `history N`
+
+    OPTIONS:
+    - N: Specify the number of entries to display. Only the last N entries will be shown.
+
+    EXIT STATUS:
+    - Returns success unless:
+        - An invalid option is given
+        - An error occurs

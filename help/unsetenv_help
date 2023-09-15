@@ -1,0 +1,15 @@
+unsetenv: unsetenv
+    Remove environment variables from the list of defined environment variables.
+
+    DESCRIPTION:
+    The "unsetenv" command is used to remove environment variables from the list of defined environment variables.
+
+    USAGE:
+    - To remove an environment variable, use: `unsetenv NAME [NAME ...]`
+
+    OPTIONS:
+    - NAME: The name of the environment variable(s) to be removed.
+
+    EXIT STATUS:
+    - Returns success unless:
+        - A specified NAME is not an existing environment variable.

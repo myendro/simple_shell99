@@ -1,0 +1,10 @@
+env: env
+    Print Environment Variables
+
+    The `env` command prints the current environment variables to standard output.
+
+    Options:
+        NONE
+
+    Exit Status:
+    Returns 0 on success.

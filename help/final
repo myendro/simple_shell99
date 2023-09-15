@@ -1,0 +1,5 @@
+# List the contents of the current directory in long format
+ls -l README.md
+
+# Print the string 'uuu' to the terminal
+echo 'We Did It!'

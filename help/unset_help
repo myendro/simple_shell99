@@ -1,0 +1,16 @@
+unset: unset
+    Unset values and attributes of shell variables and functions.
+
+    DESCRIPTION:
+    The "unset" command is used to remove values and attributes of shell variables and functions.
+
+    USAGE:
+    - To unset a shell variable or function, use: `unset NAME [NAME ...]`
+
+    OPTIONS:
+    - NAME: The name of the shell variable or function(s) to be unset.
+
+    EXIT STATUS:
+    - Returns success unless:
+        - An invalid option is given.
+        - A specified NAME is read-only.

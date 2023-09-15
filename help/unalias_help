@@ -1,0 +1,15 @@
+unalias: unalias
+    Remove aliases from the list of defined aliases.
+
+    DESCRIPTION:
+    The "unalias" command is used to remove aliases from the list of defined aliases.
+
+    USAGE:
+    - To remove an alias, use: `unalias NAME [NAME ...]`
+
+    OPTIONS:
+    - NAME: The name of the alias(es) to be removed.
+
+    EXIT STATUS:
+    - Returns success unless:
+        - A specified NAME is not an existing alias.

@@ -1,0 +1,29 @@
+alias: alias
+       Define or display aliases.
+
+DESCRIPTION:
+    The `alias` command allows you to define or display aliases. An alias is a
+    short name or abbreviation that represents a longer command or sequence of
+    commands.
+
+USAGE:
+    - Without arguments, `alias` prints the list of aliases in the reusable
+      form `alias NAME=VALUE' on standard output.
+
+    - When used with arguments, an alias is defined for each NAME whose VALUE
+      is given. A trailing space in VALUE causes the next word to be checked
+      for alias substitution when the alias is expanded.
+
+OPTIONS:
+    NONE
+
+EXIT STATUS:
+    - `alias` returns true (exit code 0) unless a NAME is supplied for which
+      no alias has been defined.
+
+EXAMPLES:
+    - Display all defined aliases:
+      $ alias
+
+    - Define a new alias:
+      $ alias myls='ls -F'

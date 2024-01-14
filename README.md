@@ -14,7 +14,7 @@
 ╚══════╝╚═╝╚═╝     ╚═╝╚═╝     ╚══════╝╚══════╝    ╚══════╝╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝
 ```
 </p>  
-<p align="center">
+<p style="text-align:center; background:linear-gradient(45deg, #4f1919, #ff3333)">
     The Simple Shell project is a collaboration project by <a href="https://github.com/Rendani-Ally">Rendani Ally<a/> and <a href="https://github.com/princenzmw">Prince Nzamuwe<a/>, students of the ALX Software Engineering Programme by Holberton School, in which a simple UNIX command interpreter written as part of the low-level programming and algorithm track at ALX.
     Shellex is a simple UNIX command language interpreter that reads commands from either a file or standard input and executes them.
 

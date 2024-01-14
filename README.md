@@ -3,7 +3,7 @@
 [![Prince-Nzamuwe][github-shield]](https://github.com/princenzmw)
 
   
-<p align="center">
+<p style="text-align:center; background:linear-gradient(45deg, #4f1919, #ff3333)">
 
 ```sh   
 ███████╗██╗███╗   ███╗██████╗ ██╗     ███████╗    ███████╗██╗  ██╗███████╗██╗     ██╗     
